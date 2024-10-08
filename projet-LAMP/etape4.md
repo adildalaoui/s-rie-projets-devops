@@ -77,6 +77,9 @@ sudo systemctl reload apache2
 
 Votre nouveau site est maintenant actif, mais le répertoire web /var/www/projectlamp est encore vide. Créez un fichier index.html à cet emplacement pour tester si l'hôte virtuel fonctionne comme prévu
 
+<img width="1440" alt="Capture d’écran 2024-10-08 à 16 13 50" src="https://github.com/user-attachments/assets/b5c9934d-5b19-425e-8465-de11cb46a043">
+
+
 
 
 Allez maintenant sur votre navigateur et essayez d'ouvrir l'URL de votre site en utilisant l'adresse IP publique :
