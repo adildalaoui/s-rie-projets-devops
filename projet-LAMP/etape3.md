@@ -12,12 +12,9 @@ Une fois l'installation terminée, vous pouvez exécuter la commande suivante po
 ```
 php -v
 ```
+<img width="799" alt="Capture d’écran 2024-10-08 à 15 46 51" src="https://github.com/user-attachments/assets/9831f4f5-e0fe-428b-92e1-cad1bc0a0e90">
 
-```
-PHP 7.4.3 (cli) (built: Oct  6 2020 15:47:56) ( NTS )
-Copyright (c) The PHP Group
-Zend Engine v3.4.0, Copyright (c) Zend Technologies
-```
+
 
 À ce stade, votre pile LAMP est entièrement installée et opérationnelle.
 
