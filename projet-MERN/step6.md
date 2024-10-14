@@ -290,7 +290,8 @@ En supposant qu'il n'y ait pas d'erreurs lors de l'enregistrement de tous ces fi
 créer une tâche, supprimer une tâche et afficher toutes vos tâches..
 
 
-![5012](https://user-images.githubusercontent.com/85270361/210132689-3bccdc9b-0dcd-47e9-b1eb-008e05505d47.PNG)
+<img width="1436" alt="Capture d’écran 2024-10-11 à 20 32 09" src="https://github.com/user-attachments/assets/7bcf32ac-33a1-4253-ad73-e241808503c0">
+
 
 
 Félicitations !
