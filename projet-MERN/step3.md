@@ -1,52 +1,43 @@
-# MODELS
+# MODÈLES
 
-Now comes the interesting part, since the app is going to make use of Mongodb which is a NoSQL database, we need to create a model.
+Maintenant, vient la partie intéressante, car l'application va utiliser MongoDB, qui est une base de données NoSQL. Nous devons donc créer un modèle.
 
-A model is at the heart of JavaScript based applications, and it is what makes it interactive.
+Un modèle est au cœur des applications basées sur JavaScript, et c'est ce qui les rend interactives.
 
-We will also use models to define the database schema . This is important so that we will be able to define the fields stored in each 
-Mongodb document. (Seems like a lot of information, but not to worry, everything will become clear to you over time. I promise!!!)
+Nous utiliserons également des modèles pour définir le schéma de la base de données. Cela est important afin que nous puissions définir les champs stockés dans chaque document MongoDB. (Cela semble être beaucoup d'informations, mais ne vous inquiétez pas, tout deviendra clair pour vous avec le temps. Je vous le promets !)
 
-In essence, the Schema is a blueprint of how the database will be constructed, including other data fields that may not be required 
-to be stored in the database. These are known as virtual properties
+En essence, le schéma est un plan de la façon dont la base de données sera construite, y compris d'autres champs de données qui peuvent ne pas être nécessaires à stocker dans la base de données. Ceux-ci sont connus sous le nom de propriétés virtuelles.
 
-To create a Schema and a model, install mongoose which is a Node.js package that makes working with mongodb easier.
+Pour créer un schéma et un modèle, installez Mongoose, qui est un paquet Node.js qui facilite le travail avec MongoDB.
 
-Change directory back Todo folder with cd .. and install Mongoose
+Changez de répertoire pour revenir au dossier Todo avec cd .. et installez Mongoose.
 
 ```
 npm install mongoose
 ```
 
-Create a new folder models :
+Créez un nouveau dossier models :
 
 
 ```
 mkdir models
 ```
 
-Change directory into the newly created ‘models’ folder with
+Changez de répertoire pour entrer dans le dossier models nouvellement créé avec :
 
 
 ```
 cd models
 ```
 
-Inside the models folder, create a file and name it todo.js
+À l'intérieur du dossier models, créez un fichier et nommez-le todo.js.
 
 
 ```
 touch todo.js
 ```
 
-Tip: All three commands above can be defined in one line to be executed consequently with help of && operator, like this:
-
-
-```
-mkdir models && cd models && touch todo.js
-```
-
-Open the file created with vim todo.js then paste the code below in the file:
+Ouvrez le fichier créé avec vim todo.js, puis collez le code ci-dessous dans le fichier :
 
 ```
 const mongoose = require('mongoose');
@@ -67,10 +58,9 @@ module.exports = Todo;
 ```
 
 
-Now we need to update our routes from the file api.js in ‘routes’ directory to make use of the new model.
+Maintenant, nous devons mettre à jour nos routes dans le fichier api.js dans le répertoire routes pour utiliser le nouveau modèle.
 
-In Routes directory, open api.js with vim api.js, delete the code inside with :%d command and paste there code below into it then 
-save and exit
+Dans le répertoire routes, ouvrez api.js avec vim api.js, supprimez le code à l'intérieur avec la commande :%d et collez le code ci-dessous dedans, puis enregistrez et quittez :
 
 
 ```
@@ -107,4 +97,4 @@ Todo.findOneAndDelete({"_id": req.params.id})
 module.exports = router;
 ```
 
-The next piece of our application will be the MongoDB Database
+La prochaine partie de notre application sera la base de données MongoDB.
