@@ -145,8 +145,9 @@ Vérifiez l'image ci-dessous :
 
 Créez une requête GET vers votre API à l'adresse http://<PublicIP-or-PublicDNS>:5000/api/todos.
 Cette requête récupère tous les enregistrements existants de notre application To-Do (le backend demande ces enregistrements à la base de données et nous les renvoie en réponse à la requête GET).
-  
-![5010](https://user-images.githubusercontent.com/85270361/210131610-9c7c4544-1e2b-40f3-b2b6-bcd389857b0d.PNG)
+
+<img width="1268" alt="Capture d’écran 2024-10-11 à 15 17 52" src="https://github.com/user-attachments/assets/c4134530-36c5-4d49-b2dd-8b99e8b095e2">
+
 
   
 Tâche optionnelle : Essayez de découvrir comment envoyer une requête DELETE pour supprimer une tâche de notre liste To-Do.
