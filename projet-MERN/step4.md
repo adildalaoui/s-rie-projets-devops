@@ -115,6 +115,12 @@ node index.js
  
 Vous devriez voir un message "Database connected successfully". Si c'est le cas, nous avons configuré notre backend. Maintenant, nous allons le tester.
 
+
+<img width="567" alt="Capture d’écran 2024-10-11 à 15 00 24" src="https://github.com/user-attachments/assets/9fbba48f-c8c4-428d-a223-a62b1e1359d0">
+
+
+
+
 Tester le code backend sans interface frontend en utilisant l'API RESTful
 Jusqu'à présent, nous avons écrit la partie backend de notre application To-Do et configuré une base de données, mais nous n'avons pas encore d'interface utilisateur frontend. Nous avons besoin de code ReactJS pour cela. Mais pendant le développement, nous aurons besoin d'un moyen de tester notre code en utilisant l'API RESTful. Par conséquent, nous devrons utiliser un client de développement API pour tester notre code.
 
